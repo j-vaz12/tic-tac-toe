@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    /* font-family: ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i0.wp.com/thinkinganimation.com/wp-content/uploads/2016/02/1452290291_ezgif.com-optimize.gif?fit=768%2C576&ssl=1&w=640);
+    background-size: contain;
+}
+
+header {
+    font-size: 4vmin;
+    color: blue;
+    letter-spacing: 0.5vmin;
+}
+
+h1 {
+    color: red;
+    font-size: 2.5vmin;
+
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 20vmin);
+    grid-template-rows: repeat(3, 20vmin);
+    gap: .145min;
+}
+
+#board > div {
+
+    border-radius: 10px;
+    border: solid gray;
+}
+
+button {
+    margin-top: 7.5vmin;
+    font-size: 30px;
+    border-radius: 30px;
+    color: blue;
+}
+
+button:hover {
+    background-color: orange;
+}
+
