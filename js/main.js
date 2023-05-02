@@ -6,7 +6,7 @@ console.log("welcome to my game please hire me")
 //   1.1) Define a colors object with keys of 'null' (when the square is empty), and players 1 & -1. The value assigned to each key represents the color to display for an empty square (null), player 1 and player -1.
 /*----- constants -----*/
 const COLOR_LOOKUP = {
-  '1': "purple",
+  '1': "red",
   '-1': 'gold',
   'null': 'white'
 }
